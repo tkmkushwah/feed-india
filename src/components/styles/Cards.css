@@ -1,0 +1,13 @@
+.cards {
+    padding: 0 10%;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    border: 2px solid red;
+    background-color: darkkhaki;
+}
+
+.cards .heading {
+    text-align: center;
+    margin: 20px 0;
+}
