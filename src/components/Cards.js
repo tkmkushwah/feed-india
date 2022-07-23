@@ -1,11 +1,10 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import carddata from '../components/cards-data'
+// import carddata from '../components/cards-data'
 import './styles/Cards.css'
 
 function GridExample() {
-    const {id , Text}=carddata;
     return (
         <Row xs={1} md={4} className="g-4">
             {Array.from({ length: 8}).map((item, idx) => (
